@@ -163,6 +163,8 @@ with aba_estat:
         ax.tick_params(axis='both', labelsize=8)
         st.pyplot(fig)
 
+
+
 # --- Aba 4: Critérios e Contexto
 with aba_criterios:
     st.subheader("Critérios de Avaliação para Helipontos")
@@ -186,4 +188,30 @@ with aba_criterios:
     >
     > 📚 *Fonte: Salim e Bosco (2020)*
     """)
+    
+    st.divider()
+    st.subheader("✈️ eVTOLs e o Uso das REHs")
 
+    st.markdown("""
+    **✅ 1.O eVTOL poderá cruzar uma REH?**  
+    Sim. As REHs são espaços VFR e não exclusivos para helicópteros.  
+    O importante é manter a separação adequada, cumprir os procedimentos locais e estar em coordenação com o controle (ou auto-coordenação em FCA, se for o caso).  
+    O que importa não é o tipo de aeronave (helicóptero ou eVTOL), mas se ela pode operar VFR, com comunicação ativa, equipamentos obrigatórios (como transponder) e velocidade/altitude compatíveis.
+
+    **✈️ 2. Será comum um eVTOL usar uma REH?**  
+    Provavelmente sim, mas com ressalvas. Como disse Márcio André, "na prática, provavelmente acompanhará o desenho das REH".  
+    Isso porque:
+    - As REH seguem eixos urbanos com áreas livres para pouso de emergência (vias, rios, parques);  
+    - Evitam rotas IFR de aviões, reduzindo conflito com tráfego comercial;  
+    - Facilitam a gestão de tráfego misto com regras unificadas e previsibilidade.
+
+    Entretanto, eVTOLs também poderão seguir novas rotas, como:
+    - Corredores específicos para eVTOLs (otimizados para baixa velocidade e ruído);  
+    - Faixas de altitude diferentes, com separação vertical das REHs.
+
+    **🧭 3. E se o eVTOL precisar cruzar uma REH?**  
+    Pode, desde que:
+    - Haja separação vertical adequada (ex: cruzar 500 pés acima);  
+    - Seja coordenado com controle (Torre, APP);  
+    - Ou em ponto autorizado conforme carta REH ou UTM.
+    """)

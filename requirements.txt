@@ -1,2 +1,6 @@
-streamlit
-svgwrite
+streamlit>=1.30.0
+pandas>=2.0.0
+folium>=0.14.0
+streamlit-folium>=0.11.0
+matplotlib>=3.7.0
+
